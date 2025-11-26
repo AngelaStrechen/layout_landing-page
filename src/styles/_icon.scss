@@ -1,0 +1,24 @@
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+
+  @include onTablet {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 32px;
+    width: 32px;
+  }
+
+  &--phone {
+    background-image: url(../images/icon-phone.png);
+  }
+
+  &--menu {
+    background-image: url(../images/icon-burger-menu.png);
+}
+
+  &--close {
+    background-image: url(../images/icon-close.png);
+  }
+}
