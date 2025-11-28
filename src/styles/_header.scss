@@ -1,11 +1,15 @@
 .header {
-  background-image: url(../images/header-bg-mobile.png);
+  background-image: url(../images/header-bg-mobile.jpg);
   background-size: cover;
   background-position: right;
 
 
     @include onTablet {
       background-position: center;
+    }
+
+    @include onDesktop {
+      background-image: url(../images/header-bg-desktop.jpg);
     }
 
     &__content {

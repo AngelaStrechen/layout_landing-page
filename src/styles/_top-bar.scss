@@ -22,6 +22,8 @@
   &__logo {
     display: flex;
 
+    @include hover(transform, scale(1.2));
+
     @include onTablet {
       width: 187px;
       height: 56px;
